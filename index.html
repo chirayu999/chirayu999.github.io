@@ -6,21 +6,13 @@
     <title>Chirayu Vithalani | Backend & AI Engineer</title>
     <meta
       name="description"
-      content="Portfolio of Chirayu Vithalani – Backend engineer and AI builder specializing in scalable systems, multi-agent AI, and data-intensive applications."
+      content="Portfolio of Chirayu Vithalani - Backend engineer and AI builder specializing in scalable systems, multi-agent AI, and data-intensive applications."
     />
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -33,9 +25,9 @@
         </button>
         <ul class="nav__links">
           <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -43,18 +35,23 @@
     </header>
 
     <main>
-      <section id="hero" class="section hero">
-        <div class="hero__bg"></div>
+      <!-- ======= HERO ======= -->
+      <section id="hero" class="hero">
+        <div class="studs-bg"></div>
         <div class="container hero__content">
+          <div class="profile-frame">
+            <img src="assets/profile.jpg" alt="Chirayu Vithalani" />
+          </div>
           <div class="hero__text">
-            <p class="hero__eyebrow">Backend · AI · Data</p>
+            <p class="hero__eyebrow">Backend &middot; AI &middot; Data</p>
             <h1 class="hero__title">Chirayu Vithalani</h1>
             <p class="hero__subtitle">
               <span id="hero-typing" class="hero__typing"></span>
             </p>
             <p class="hero__description">
-              I build backend systems and AI agents that turn messy data and complex workflows
-              into fast, reliable products – from 20M+ listing scrapers to multi-agent threat hunters.
+              I build backend systems and AI agents that turn messy data and
+              complex workflows into fast, reliable products &mdash; from 20M+
+              listing scrapers to multi-agent threat hunters.
             </p>
             <div class="hero__actions">
               <a href="#projects" class="btn btn--primary">View Projects</a>
@@ -62,9 +59,14 @@
             </div>
             <div class="hero__social">
               <a href="mailto:chirayu.vithalani45@gmail.com">Email</a>
-              <span>·</span>
-              <a href="https://github.com/chirayu999" target="_blank" rel="noreferrer">GitHub</a>
-              <span>·</span>
+              <span>&middot;</span>
+              <a
+                href="https://github.com/chirayu999"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+              <span>&middot;</span>
               <a
                 href="https://www.linkedin.com/in/chirayu-vithalani-7864081b9/"
                 target="_blank"
@@ -76,383 +78,45 @@
         </div>
       </section>
 
-      <section id="experience" class="section">
-        <div class="container">
-          <header class="section__header">
-            <h2>Experience</h2>
-          </header>
-          <div class="timeline">
-            <article class="timeline__item">
-              <div class="timeline__marker"></div>
-              <div class="timeline__content">
-                <div class="timeline__meta">
-                  <h3>Full Stack Engineer · PriceLabs</h3>
-                  <p class="timeline__meta-sub">Feb 2025 – Present · Remote</p>
-                </div>
-                <ul class="timeline__bullets">
-                  <li>
-                    Maintained data scraping infrastructure processing
-                    <strong>20M+ listings</strong> across OTA APIs with resilient anti-bot and
-                    rate-limit bypass strategies.
-                  </li>
-                  <li>
-                    Scaled <strong>anti-bot detection</strong> with automated TLS fingerprint
-                    updates and proxy IP rotation pipelines.
-                  </li>
-                  <li>
-                    Implemented <strong>city-level ranking</strong> for 20K+ cities across guest
-                    profiles and booking windows.
-                  </li>
-                  <li>
-                    Built <strong>testing & observability</strong> with MiniTest and Prometheus for
-                    proactive issue detection.
-                  </li>
-                </ul>
-                <p class="timeline__tags">
-                  Ruby on Rails · Sidekiq · AWS · Jenkins · Prometheus · MySQL · Redis
-                </p>
-              </div>
-            </article>
-
-            <article class="timeline__item">
-              <div class="timeline__marker"></div>
-              <div class="timeline__content">
-                <div class="timeline__meta">
-                  <h3>Backend Developer · Learnyst</h3>
-                  <p class="timeline__meta-sub">Sep 2023 – Feb 2025 · Bengaluru</p>
-                </div>
-                <ul class="timeline__bullets">
-                  <li>
-                    Built GraphQL APIs powering a <strong>website builder</strong>, cutting initial
-                    page load from <strong>4s to 1s</strong>.
-                  </li>
-                  <li>
-                    Implemented a <strong>code execution platform</strong> for DSA questions with
-                    sandboxed execution and sub-10s feedback.
-                  </li>
-                  <li>
-                    Orchestrated auto-scaling Sidekiq workers, reducing marketing email delivery
-                    time by <strong>75%</strong> for <strong>100K emails</strong>.
-                  </li>
-                  <li>
-                    Optimized bulky REST APIs with <strong>write-through</strong>, lazy loading and
-                    TTL caching using Redis.
-                  </li>
-                </ul>
-                <p class="timeline__tags">
-                  Ruby on Rails · GraphQL · Redis · Sidekiq · AWS · MySQL
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section section--alt">
-        <div class="container">
-          <header class="section__header">
-            <h2>Featured Projects</h2>
-            <p>
-              Selected work that combines backend engineering, AI systems, and data-heavy
-              architectures.
-            </p>
-          </header>
-
-          <div class="projects">
-            <article class="project-card">
-              <div class="project-card__header">
-                <h3>InfinityVeil / NIGHTWATCH</h3>
-                <p class="project-card__tagline">
-                  Adversarial multi-agent threat hunting on Elasticsearch.
-                </p>
-              </div>
-              <div class="project-card__body">
-                <div class="project-card__diagram">
-                  <svg viewBox="0 0 420 220" role="img" aria-label="InfinityVeil architecture diagram">
-                    <rect x="10" y="80" width="120" height="60" class="node node--data" />
-                    <text x="70" y="110" class="node__title">Elasticsearch</text>
-
-                    <rect x="160" y="20" width="100" height="50" class="node node--ai" />
-                    <text x="210" y="48" class="node__title">SCANNER</text>
-
-                    <rect x="310" y="80" width="100" height="50" class="node node--ai" />
-                    <text x="360" y="108" class="node__title">TRACER</text>
-
-                    <rect x="160" y="150" width="100" height="50" class="node node--ai" />
-                    <text x="210" y="178" class="node__title">ADVOCATE</text>
-
-                    <rect x="260" y="110" width="90" height="50" class="node node--ai node--primary" />
-                    <text x="305" y="138" class="node__title">COMMANDER</text>
-
-                    <rect x="40" y="10" width="120" height="40" class="node node--frontend" />
-                    <text x="100" y="35" class="node__title">Dashboard & Chat</text>
-
-                    <rect x="40" y="170" width="120" height="40" class="node node--backend" />
-                    <text x="100" y="195" class="node__title">Rails API</text>
-
-                    <path d="M130 110 L160 45" class="edge edge--animated" />
-                    <path d="M130 110 L160 175" class="edge edge--animated" />
-                    <path d="M260 45 L360 105" class="edge edge--animated" />
-                    <path d="M260 175 L360 130" class="edge edge--animated" />
-                    <path d="M360 105 Q380 60 260 25" class="edge edge--animated" />
-
-                    <path d="M100 50 L100 80" class="edge" />
-                    <path d="M100 140 L100 170" class="edge" />
-                    <path d="M160 195 L260 135" class="edge" />
-                  </svg>
-                </div>
-                <ul class="project-card__bullets">
-                  <li>
-                    Orchestrated <strong>4 adversarial agents</strong> (SCANNER, TRACER, ADVOCATE,
-                    COMMANDER) over Elasticsearch logs to hunt and debate threats.
-                  </li>
-                  <li>
-                    Built confidence-based routing and attack timelines mapped to
-                    <strong>MITRE ATT&amp;CK</strong>.
-                  </li>
-                  <li>
-                    Delivered real-time dashboards, chat, and review queues via
-                    <strong>ActionCable</strong>.
-                  </li>
-                </ul>
-              </div>
-              <footer class="project-card__footer">
-                <p class="project-card__tags">
-                  Ruby on Rails · React · TypeScript · Elasticsearch · Sidekiq · WebSockets · Docker
-                </p>
-                <a
-                  href="https://github.com/chirayu999/infinity-veil"
-                  target="_blank"
-                  rel="noreferrer"
-                  class="project-card__link"
-                  >View on GitHub</a
-                >
-              </footer>
-            </article>
-
-            <article class="project-card">
-              <div class="project-card__header">
-                <h3>GlideGov Assistant</h3>
-                <p class="project-card__tagline">
-                  Voice-first assistant for discovering and applying to government schemes.
-                </p>
-              </div>
-              <div class="project-card__body">
-                <div class="project-card__diagram">
-                  <svg viewBox="0 0 420 220" role="img" aria-label="GlideGov architecture diagram">
-                    <rect x="30" y="30" width="110" height="50" class="node node--frontend" />
-                    <text x="85" y="60" class="node__title">User / Browser</text>
-
-                    <rect x="180" y="30" width="110" height="50" class="node node--backend" />
-                    <text x="235" y="52" class="node__title">Rails API</text>
-
-                    <rect x="330" y="30" width="70" height="50" class="node node--ai" />
-                    <text x="365" y="52" class="node__title">Gemini</text>
-
-                    <rect x="60" y="130" width="90" height="50" class="node node--backend" />
-                    <text x="105" y="152" class="node__title">Sidekiq</text>
-
-                    <rect x="190" y="130" width="80" height="50" class="node node--backend" />
-                    <text x="230" y="152" class="node__title">Playwright</text>
-
-                    <rect x="310" y="130" width="80" height="50" class="node node--data" />
-                    <text x="350" y="152" class="node__title">MySQL / Redis</text>
-
-                    <path d="M140 55 L180 55" class="edge edge--animated" />
-                    <path d="M290 55 L330 55" class="edge edge--animated" />
-                    <path d="M225 80 L225 130" class="edge edge--animated" />
-                    <path d="M105 80 L105 130" class="edge" />
-                    <path d="M270 155 L310 155" class="edge" />
-                  </svg>
-                </div>
-                <ul class="project-card__bullets">
-                  <li>
-                    Built an assistant that shortens discovery and application time for government
-                    schemes using <strong>Gemini voice &amp; vision</strong>.
-                  </li>
-                  <li>
-                    Automated full form filling with <strong>Playwright browser agents</strong>,
-                    streamed via WebSockets.
-                  </li>
-                  <li>
-                    Restricted discovery to official domains using <strong>Google Search APIs</strong>
-                    for trustworthy results.
-                  </li>
-                </ul>
-              </div>
-              <footer class="project-card__footer">
-                <p class="project-card__tags">
-                  Ruby on Rails · React · Gemini · Playwright · ActionCable · Google Search API
-                </p>
-                <a
-                  href="https://github.com/chirayu999/glidegov-assistant"
-                  target="_blank"
-                  rel="noreferrer"
-                  class="project-card__link"
-                  >View on GitHub</a
-                >
-              </footer>
-            </article>
-
-            <article class="project-card">
-              <div class="project-card__header">
-                <h3>ComplianceGuard (GitLab Hack)</h3>
-                <p class="project-card__tagline">
-                  AI compliance reviewer for GitLab merge requests.
-                </p>
-              </div>
-              <div class="project-card__body">
-                <div class="project-card__diagram">
-                  <svg
-                    viewBox="0 0 420 220"
-                    role="img"
-                    aria-label="ComplianceGuard architecture diagram"
-                  >
-                    <rect x="20" y="40" width="110" height="50" class="node node--frontend" />
-                    <text x="75" y="70" class="node__title">GitLab MR</text>
-
-                    <rect x="160" y="40" width="120" height="50" class="node node--ai" />
-                    <text x="220" y="65" class="node__title">Duo Agent</text>
-
-                    <rect x="310" y="20" width="90" height="40" class="node node--backend" />
-                    <text x="355" y="45" class="node__title">Policy Engine</text>
-
-                    <rect x="310" y="90" width="90" height="40" class="node node--data" />
-                    <text x="355" y="115" class="node__title">Evidence</text>
-
-                    <rect x="160" y="140" width="120" height="50" class="node node--backend" />
-                    <text x="220" y="167" class="node__title">Risk Triage</text>
-
-                    <rect x="20" y="140" width="110" height="50" class="node node--frontend" />
-                    <text x="75" y="167" class="node__title">Labels &amp; Notes</text>
-
-                    <path d="M130 65 L160 65" class="edge edge--animated" />
-                    <path d="M280 65 L310 40" class="edge edge--animated" />
-                    <path d="M280 65 L310 110" class="edge" />
-                    <path d="M220 90 L220 140" class="edge" />
-                    <path d="M140 165 L160 165" class="edge" />
-                  </svg>
-                </div>
-                <ul class="project-card__bullets">
-                  <li>
-                    Designed GitLab Duo agent flows to review MRs against
-                    <strong>SOC 2, PCI-DSS, HIPAA, GDPR</strong> controls.
-                  </li>
-                  <li>
-                    Implemented risk triage (low/medium/high) and automatic evidence collection as
-                    MR artifacts.
-                  </li>
-                  <li>
-                    Integrated compliance notes and labels directly into GitLab for developer
-                    feedback loops.
-                  </li>
-                </ul>
-              </div>
-              <footer class="project-card__footer">
-                <p class="project-card__tags">
-                  GitLab Duo · Node.js · Express · Compliance Automation
-                </p>
-                <a
-                  href="https://github.com/chirayu999/gitlab-hack"
-                  target="_blank"
-                  rel="noreferrer"
-                  class="project-card__link"
-                  >View on GitHub</a
-                >
-              </footer>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="other-projects" class="section">
-        <div class="container">
-          <header class="section__header">
-            <h2>Other Projects</h2>
-          </header>
-          <div class="projects projects--grid">
-            <article class="project-card project-card--compact">
-              <h3>Driver Assistance System</h3>
-              <p>
-                Computer vision pipeline using HOG features and SVMs for car detection with
-                <strong>90% precision</strong>, plus lane detection and alerts.
-              </p>
-              <p class="project-card__tags">Python · OpenCV · scikit-learn</p>
-              <a
-                href="https://github.com/chirayu999/Driver-Assistance-System"
-                target="_blank"
-                rel="noreferrer"
-                class="project-card__link"
-                >View on GitHub</a
-              >
-            </article>
-
-            <article class="project-card project-card--compact">
-              <h3>GitHub Social Network Analysis</h3>
-              <p>
-                Built user–user and user–repo graphs with PageRank, HITS, and TF-IDF + KNN to
-                recommend similar developers and repositories.
-              </p>
-              <p class="project-card__tags">Python · NetworkX · BigQuery</p>
-              <a
-                href="https://github.com/chirayu999/GitHub-Social-Network-Analysis-and-Recommendation"
-                target="_blank"
-                rel="noreferrer"
-                class="project-card__link"
-                >View on GitHub</a
-              >
-            </article>
-
-            <article class="project-card project-card--compact">
-              <h3>Heart Failure Prediction</h3>
-              <p>
-                Web app that predicts heart failure risk with <strong>XGBoost</strong>, deployed
-                using Flask and Docker on Azure.
-              </p>
-              <p class="project-card__tags">Python · Flask · XGBoost · Docker · Azure</p>
-              <a
-                href="https://github.com/chirayu999/Heart-Failure-Prediction"
-                target="_blank"
-                rel="noreferrer"
-                class="project-card__link"
-                >View on GitHub</a
-              >
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section section--alt">
+      <!-- ======= ABOUT ======= -->
+      <section id="about" class="section">
         <div class="container">
           <header class="section__header">
             <h2>About</h2>
             <p>
-              Backend engineer and AI builder focused on high-volume data pipelines, multi-agent
-              systems, and real-time user experiences.
+              Backend engineer and AI builder focused on high-volume data
+              pipelines, multi-agent systems, and real-time user experiences.
             </p>
           </header>
           <div class="about__grid">
             <p class="about__summary">
-              I work across the stack with a bias toward backend-heavy, data and AI focussed
-              products – scaling scrapers that track 20M+ listings, orchestrating LLM agents for
-              security teams, and shipping voice-first assistants that automate end-to-end
+              I work across the stack with a bias toward backend-heavy, data and
+              AI focussed products &mdash; scaling scrapers that track 20M+
+              listings, orchestrating LLM agents for security teams, and
+              shipping voice-first assistants that automate end-to-end
               workflows.
             </p>
             <div class="about__stats">
-              <div class="stat" data-counter>
-                <span class="stat__value" data-target="20" data-suffix="M+">0</span>
+              <div class="stat lego-card lego-card--blue" data-counter>
+                <span class="stat__value" data-target="20" data-suffix="M+"
+                  >0</span
+                >
                 <span class="stat__label">Listings processed</span>
               </div>
-              <div class="stat" data-counter>
-                <span class="stat__value" data-target="100" data-suffix="K">0</span>
-                <span class="stat__label">Emails in 30 minutes</span>
+              <div class="stat lego-card" data-counter>
+                <span class="stat__value" data-target="100" data-suffix="K"
+                  >0</span
+                >
+                <span class="stat__label">Emails in 30 min</span>
               </div>
-              <div class="stat" data-counter>
+              <div class="stat lego-card lego-card--green" data-counter>
                 <span class="stat__value" data-target="4">0</span>
                 <span class="stat__label">LLM agents orchestrated</span>
               </div>
-              <div class="stat" data-counter>
-                <span class="stat__value" data-target="75" data-suffix="%">0</span>
+              <div class="stat lego-card lego-card--yellow" data-counter>
+                <span class="stat__value" data-target="75" data-suffix="%"
+                  >0</span
+                >
                 <span class="stat__label">Delivery time reduction</span>
               </div>
             </div>
@@ -460,13 +124,309 @@
         </div>
       </section>
 
-      <section id="skills" class="section section--alt">
+      <!-- ======= EXPERIENCE ======= -->
+      <section id="experience" class="section section--gray">
+        <div class="container">
+          <header class="section__header">
+            <h2>Experience</h2>
+          </header>
+          <div class="timeline">
+            <!-- PriceLabs -->
+            <article class="timeline__item">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content">
+                <img
+                  src="assets/pricelabs.png"
+                  alt="PriceLabs - Data scraping infrastructure processing 20M+ listings"
+                  class="timeline__image"
+                />
+                <div class="timeline__body">
+                  <div class="timeline__meta">
+                    <h3>Full Stack Engineer &middot; PriceLabs</h3>
+                    <p class="timeline__meta-sub">
+                      Feb 2025 &ndash; Present &middot; Remote
+                    </p>
+                  </div>
+                  <ul class="timeline__bullets">
+                    <li>
+                      Maintained data scraping infrastructure processing
+                      <strong>20M+ listings</strong> across OTA APIs with
+                      resilient anti-bot and rate-limit bypass strategies.
+                    </li>
+                    <li>
+                      Scaled <strong>anti-bot detection</strong> with automated
+                      TLS fingerprint updates and proxy IP rotation pipelines.
+                    </li>
+                    <li>
+                      Implemented <strong>city-level ranking</strong> for 20K+
+                      cities across guest profiles and booking windows.
+                    </li>
+                    <li>
+                      Built <strong>testing &amp; observability</strong> with
+                      MiniTest and Prometheus for proactive issue detection.
+                    </li>
+                  </ul>
+                  <p class="timeline__tags">
+                    Ruby on Rails &middot; Sidekiq &middot; AWS &middot; Jenkins
+                    &middot; Prometheus &middot; MySQL &middot; Redis
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Learnyst -->
+            <article class="timeline__item">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content">
+                <img
+                  src="assets/learnyst.png"
+                  alt="Learnyst - Code execution platform and email scaling"
+                  class="timeline__image"
+                />
+                <div class="timeline__body">
+                  <div class="timeline__meta">
+                    <h3>Backend Developer &middot; Learnyst</h3>
+                    <p class="timeline__meta-sub">
+                      Sep 2023 &ndash; Feb 2025 &middot; Bengaluru
+                    </p>
+                  </div>
+                  <ul class="timeline__bullets">
+                    <li>
+                      Built GraphQL APIs powering a
+                      <strong>website builder</strong>, cutting initial page load
+                      from <strong>4s to 1s</strong>.
+                    </li>
+                    <li>
+                      Implemented a
+                      <strong>code execution platform</strong> for DSA questions
+                      with sandboxed execution and sub-10s feedback.
+                    </li>
+                    <li>
+                      Orchestrated auto-scaling Sidekiq workers, reducing
+                      marketing email delivery time by
+                      <strong>75%</strong> for
+                      <strong>100K emails</strong>.
+                    </li>
+                    <li>
+                      Optimized bulky REST APIs with
+                      <strong>write-through</strong>, lazy loading and TTL
+                      caching using Redis.
+                    </li>
+                  </ul>
+                  <p class="timeline__tags">
+                    Ruby on Rails &middot; GraphQL &middot; Redis &middot;
+                    Sidekiq &middot; AWS &middot; MySQL
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= FEATURED PROJECTS ======= -->
+      <section id="projects" class="section section--baseplate">
+        <div class="studs-bg"></div>
+        <div class="container" style="position: relative">
+          <header class="section__header">
+            <h2>Featured Projects</h2>
+            <p>
+              Selected work combining backend engineering, AI systems, and
+              data-heavy architectures.
+            </p>
+          </header>
+
+          <div class="projects">
+            <!-- InfinityVeil -->
+            <article class="project-card project-card--purple">
+              <div class="project-card__inner">
+                <img
+                  src="assets/infinityveil.png"
+                  alt="InfinityVeil - Multi-agent cybersecurity threat hunting command center"
+                  class="project-card__image"
+                />
+                <div class="project-card__info">
+                  <h3>InfinityVeil / NIGHTWATCH</h3>
+                  <p class="project-card__tagline">
+                    Adversarial multi-agent threat hunting on Elasticsearch.
+                  </p>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Orchestrated
+                      <strong>4 adversarial agents</strong> (SCANNER, TRACER,
+                      ADVOCATE, COMMANDER) over Elasticsearch logs to hunt and
+                      debate threats.
+                    </li>
+                    <li>
+                      Built confidence-based routing and attack timelines mapped
+                      to <strong>MITRE ATT&amp;CK</strong>.
+                    </li>
+                    <li>
+                      Delivered real-time dashboards, chat, and review queues via
+                      <strong>ActionCable</strong>.
+                    </li>
+                  </ul>
+                  <p class="project-card__tags">
+                    Ruby on Rails &middot; React &middot; TypeScript &middot;
+                    Elasticsearch &middot; Sidekiq &middot; WebSockets &middot;
+                    Docker
+                  </p>
+                  <a
+                    href="https://github.com/chirayu999/infinity-veil"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="project-card__link"
+                    >View on GitHub &rarr;</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <!-- GlideGov -->
+            <article class="project-card project-card--green">
+              <div class="project-card__inner">
+                <div class="project-card__info">
+                  <h3>GlideGov Assistant</h3>
+                  <p class="project-card__tagline">
+                    Voice-first assistant for discovering and applying to
+                    government schemes.
+                  </p>
+                  <ul class="project-card__bullets">
+                    <li>
+                      Built an assistant that shortens discovery and application
+                      time for government schemes using
+                      <strong>Gemini voice &amp; vision</strong>.
+                    </li>
+                    <li>
+                      Automated full form filling with
+                      <strong>Playwright browser agents</strong>, streamed via
+                      WebSockets.
+                    </li>
+                    <li>
+                      Restricted discovery to official domains using
+                      <strong>Google Search APIs</strong> for trustworthy
+                      results.
+                    </li>
+                  </ul>
+                  <p class="project-card__tags">
+                    Ruby on Rails &middot; React &middot; Gemini &middot;
+                    Playwright &middot; ActionCable &middot; Google Search API
+                  </p>
+                  <a
+                    href="https://github.com/chirayu999/glidegov-assistant"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="project-card__link"
+                    >View on GitHub &rarr;</a
+                  >
+                </div>
+                <img
+                  src="assets/glidegov.png"
+                  alt="GlideGov - AI assistant helping citizens navigate government schemes"
+                  class="project-card__image"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= OTHER PROJECTS ======= -->
+      <section id="other-projects" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>Other Projects</h2>
+          </header>
+          <div class="projects projects--grid">
+            <article class="project-card project-card--compact card-green">
+              <img
+                src="assets/driver-assist.png"
+                alt="Driver Assistance System - LEGO car with object detection"
+                class="project-card__thumb"
+              />
+              <div class="project-card__body">
+                <h3>Driver Assistance System</h3>
+                <p>
+                  Computer vision pipeline using HOG features and SVMs for car
+                  detection with <strong>90% precision</strong>, plus lane
+                  detection and alerts.
+                </p>
+                <p class="project-card__tags">
+                  Python &middot; OpenCV &middot; scikit-learn
+                </p>
+                <a
+                  href="https://github.com/chirayu999/Driver-Assistance-System"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="project-card__link"
+                  >View on GitHub &rarr;</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card project-card--compact card-orange">
+              <img
+                src="assets/github-social.png"
+                alt="GitHub Social Network Analysis with PageRank"
+                class="project-card__thumb"
+              />
+              <div class="project-card__body">
+                <h3>GitHub Social Network Analysis</h3>
+                <p>
+                  Built user-user and user-repo graphs with PageRank, HITS, and
+                  TF-IDF + KNN to recommend similar developers and repositories.
+                </p>
+                <p class="project-card__tags">
+                  Python &middot; NetworkX &middot; BigQuery
+                </p>
+                <a
+                  href="https://github.com/chirayu999/GitHub-Social-Network-Analysis-and-Recommendation"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="project-card__link"
+                  >View on GitHub &rarr;</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card project-card--compact card-red">
+              <img
+                src="assets/heart-prediction.png"
+                alt="Heart Failure Prediction with XGBoost"
+                class="project-card__thumb"
+              />
+              <div class="project-card__body">
+                <h3>Heart Failure Prediction</h3>
+                <p>
+                  Web app that predicts heart failure risk with
+                  <strong>XGBoost</strong>, deployed using Flask and Docker on
+                  Azure.
+                </p>
+                <p class="project-card__tags">
+                  Python &middot; Flask &middot; XGBoost &middot; Docker &middot;
+                  Azure
+                </p>
+                <a
+                  href="https://github.com/chirayu999/Heart-Failure-Prediction"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="project-card__link"
+                  >View on GitHub &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= SKILLS ======= -->
+      <section id="skills" class="section section--gray">
         <div class="container">
           <header class="section__header">
             <h2>Skills</h2>
           </header>
           <div class="skills">
-            <div class="skills__group">
+            <div class="skills__group skills__group--red">
               <h3>Languages</h3>
               <ul>
                 <li>Ruby</li>
@@ -475,7 +435,7 @@
                 <li>TypeScript / JavaScript</li>
               </ul>
             </div>
-            <div class="skills__group">
+            <div class="skills__group skills__group--blue">
               <h3>Frameworks &amp; APIs</h3>
               <ul>
                 <li>Ruby on Rails</li>
@@ -484,25 +444,25 @@
                 <li>Gemini API</li>
               </ul>
             </div>
-            <div class="skills__group">
+            <div class="skills__group skills__group--green">
               <h3>AI &amp; Data</h3>
               <ul>
                 <li>Elasticsearch Agent Builder</li>
-                <li>scikit-learn · XGBoost</li>
+                <li>scikit-learn &middot; XGBoost</li>
                 <li>OpenCV</li>
                 <li>Data pipelines &amp; observability</li>
               </ul>
             </div>
-            <div class="skills__group">
+            <div class="skills__group skills__group--yellow">
               <h3>Infrastructure</h3>
               <ul>
                 <li>Docker</li>
                 <li>AWS</li>
-                <li>Sidekiq · RabbitMQ</li>
-                <li>Jenkins · Prometheus</li>
+                <li>Sidekiq &middot; RabbitMQ</li>
+                <li>Jenkins &middot; Prometheus</li>
               </ul>
             </div>
-            <div class="skills__group">
+            <div class="skills__group skills__group--orange">
               <h3>Databases</h3>
               <ul>
                 <li>MySQL</li>
@@ -515,22 +475,31 @@
         </div>
       </section>
 
-      <section id="contact" class="section">
-        <div class="container contact">
+      <!-- ======= CONTACT ======= -->
+      <section id="contact" class="section section--baseplate">
+        <div class="studs-bg"></div>
+        <div class="container" style="position: relative">
           <header class="section__header">
             <h2>Contact</h2>
             <p>
-              Interested in backend-heavy, AI-enabled systems or data-intensive products? I'm happy
-              to chat.
+              Interested in backend-heavy, AI-enabled systems or data-intensive
+              products? I'm happy to chat.
             </p>
           </header>
           <div class="contact__content">
-            <a href="mailto:chirayu.vithalani45@gmail.com" class="btn btn--primary"
+            <a
+              href="mailto:chirayu.vithalani45@gmail.com"
+              class="btn btn--primary"
               >Email me</a
             >
             <p class="contact__links">
-              <a href="https://github.com/chirayu999" target="_blank" rel="noreferrer">GitHub</a>
-              <span>·</span>
+              <a
+                href="https://github.com/chirayu999"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+              <span>&middot;</span>
               <a
                 href="https://www.linkedin.com/in/chirayu-vithalani-7864081b9/"
                 target="_blank"
@@ -545,7 +514,7 @@
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p>© <span id="year"></span> Chirayu Vithalani</p>
+        <p>&copy; <span id="year"></span> Chirayu Vithalani</p>
         <p>Built with HTML, CSS &amp; JS</p>
       </div>
     </footer>
@@ -553,4 +522,3 @@
     <script src="js/main.js" defer></script>
   </body>
 </html>
-
